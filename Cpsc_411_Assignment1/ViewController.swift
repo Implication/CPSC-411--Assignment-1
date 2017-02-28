@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    //Variables
     @IBOutlet weak var imgView: UIImageView!
     @IBOutlet weak var weightLbl: UITextField!
     @IBOutlet weak var heightLbl: UITextField!
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    //Button calculation
     @IBAction func calculateBtn(_ sender: Any) {
         w = Float(weight.text!)!
         h = Float(height.text!)!
